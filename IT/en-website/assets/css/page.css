@@ -1,0 +1,13 @@
+.hero {
+    height: 80vh;
+}
+
+.hero__image {
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg");
+    display: inline-block;
+    width: 50%;
+}
+
+.hero__content {
+    width: 50%;
+}
