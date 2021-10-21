@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Righteous';
+    text-align: center;
+}
+
+h1 span {
+    font-weight: 500;
+}
+
+.box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px auto;
+    width: 80%;
+    background: rgb(238, 232, 222);
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 1px 2px 16px #00000050;
+}

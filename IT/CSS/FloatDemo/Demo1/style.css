@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    background-color: antiquewhite;
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: 'Righteous';
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    /* opacity: .5; */
+}
+
+p {
+    text-align: justify;
+    /* background-color: green; */
+}
