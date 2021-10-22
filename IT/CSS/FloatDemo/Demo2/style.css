@@ -12,6 +12,7 @@ h1 {
 .box {
     width: 100px;
     height: 100px;
+    float: left;
 }
 
 .box-1 {
@@ -24,7 +25,6 @@ h1 {
 
 .box-3 {
     background-color: firebrick;
-    /* clear: both; */
 }
 
 .box-4 {

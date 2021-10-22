@@ -12,6 +12,7 @@ h1 {
 img {
     width: 400px;
     /* opacity: .5; */
+    float: left;
 }
 
 p {

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: moccasin;
+    padding: 20px 0;
+}
+
+nav .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+.menu li {
+    float: left;
+    margin-left: 30px;
+} */
