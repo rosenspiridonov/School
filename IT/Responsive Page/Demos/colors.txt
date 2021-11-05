@@ -1,0 +1,3 @@
+#2f2fa2 - blue
+#f64c72 - accent
+#99738e - brown
