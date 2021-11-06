@@ -170,6 +170,7 @@ footer .container {
 }
 
 footer ul {
+    list-style: none;
     line-height: 27px;
     word-spacing: 2px;
 }
