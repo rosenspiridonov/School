@@ -1,0 +1,142 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#section-1 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--clr-beige);
+}
+
+#section-1 h1 {
+    font-size: 3.5rem;
+    color: var(--clr-brown);
+    font-weight: 700;
+    font-family: serif;
+}
+
+#section-1 h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .5em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+#section-2 {
+    padding: 5em 0 7em 0;
+}
+
+#section-2 h2,
+#section-3 h2 {
+    text-align: center;
+    color: var(--clr-brown);
+    font-family: serif;
+    font-size: 2.5rem;
+    margin-bottom: .75em;
+}
+
+.cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    font-size: 1.2rem;
+}
+
+#section-2 .cols div {
+    padding: 0 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    #section-2 .cols {
+        flex-direction: column;
+    }
+
+    #section-2 .cols div {
+        padding-bottom: 1em;
+    }
+}
+
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+    background-image: url('/img/parallax.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#section-3 h2 {
+    color: var(--clr-light);
+}
+
+#section-3 .btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--clr-light);
+    background-color: var(--clr-brown);
+    padding: .75em 1.75em;
+    border-radius: 50px;
+    transition: transform 250ms ease-in-out;
+}
+
+#section-3 .btn:hover {
+    transform: scale(1.1);
+}
+
+#section-4 {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    padding: 6em 0;
+}
+
+#section-4 h2 {
+    font-family: serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: .75em;
+}
+
+#section-4 .cols div {
+    flex: 1;
+}
+
+#section-4 img {
+    width: 50%;
+}
+
+#section-4 .content {
+    padding-right: 4em;
+}
+
+#section-4 .content p {
+    line-height: 1.8em;
+}
+
+@media only screen and (max-width: 800px) {
+    #section-4 .cols {
+        flex-direction: column;
+    }
+
+    #section-4 .content {
+        padding-right: 0;
+        order: 1;
+        margin-bottom: 1em;
+    }
+
+    #section-4 img {
+        width: 100%;
+        order: 2;
+    }
+}
