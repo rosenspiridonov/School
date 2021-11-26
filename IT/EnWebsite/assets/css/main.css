@@ -14,6 +14,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--ff-main);
     font-size: 16px;
@@ -41,6 +45,8 @@ a {
 nav {
     background-color: var(--clr-dark);
     height: 90px;
+    box-shadow: 0px 2px 6px 0px #00000050;
+    position: relative;
 }
 
 nav * {
@@ -199,5 +205,114 @@ footer li {
 }
 
 .h2 {
-    font-size: 2rem;    
+    font-size: 2rem;
 }
+
+.backTop-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    color: var(--clr-light);
+    background-color: #00000050;
+    padding: .8em 1em;
+    border-radius: 50px;
+    display: none;
+    box-shadow: 0 0 10px #ffffff70;
+}
+
+.backTop-btn:hover::after {
+    content: none;
+}
+
+#fixed-social {
+    position: fixed;
+    bottom: 200px;
+}
+
+#fixed-social a {
+    color: #fff;
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    z-index: 2;
+}
+
+#fixed-social a:hover>span {
+    visibility: visible;
+    left: 100%;
+    opacity: 1;
+}
+
+#fixed-social a span {
+    line-height: 40px;
+    left: 70%;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    z-index: 1;
+    opacity: 0;
+}
+
+#fixed-social a:hover::after {
+    content: none;
+}
+
+.fixed-facebook {
+    background-color: #00AAE5;
+}
+
+.fixed-facebook span {
+    background-color: #00AAE5;
+}
+
+.fixed-twitter {
+    background-color: #7D3895;
+
+}
+
+.fixed-twitter span {
+    background-color: #7D3895;
+}
+
+.fixed-gplus {
+    background-color: #00AF54;
+
+}
+
+.fixed-gplus span {
+    background-color: #00AF54;
+}
+
+.fixed-linkedin {
+    background-color: #FFC41E;
+
+}
+
+.fixed-linkedin span {
+    background-color: #FFC41E;
+}
+
+.fixed-instagrem {
+    background-color: #ED2B29;
+
+}
+
+.fixed-instagrem span {
+    background-color: #ED2B29;
+}
+
+.fixed-tumblr {
+    background-color: #EB1471;
+}
+
+.fixed-tumblr span {
+    background-color: #EB1471;
+}
+
+/*end fixed social*/

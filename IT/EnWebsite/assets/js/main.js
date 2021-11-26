@@ -18,3 +18,17 @@ $('.accordion__item .title').click(function() {
     
     panel.slideToggle();
 });
+
+$(document).ready(function(){
+    $(window).on("scroll", function () {
+       if ($(this).scrollTop() > 400) {
+          $('.backTop-btn').fadeIn('slow');
+       } else {
+          $('.backTop-btn').fadeOut('slow');
+       }
+    });
+    
+    $(".backTop-btn").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 10);
+    });
+  });
