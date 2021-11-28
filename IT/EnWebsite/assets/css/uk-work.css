@@ -46,7 +46,12 @@
 }
 
 .service-industries .content {
-    padding: 0 1em 0 9.3em;
+    padding: 3.5em 1.5em 0 6em;
+    background-color: var(--clr-blank);
+}
+
+.service-industries .content * {
+    background-color: var(--clr-blank);
 }
 
 .service-industries .img {

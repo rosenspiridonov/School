@@ -5,6 +5,7 @@
     --clr-light: #fff;
     --clr-purple: #6200ee;
     --clr-orange: #ff8001;
+    --clr-blank: #ffe2c4;
     --ff-main: 'Work Sans', sans-serif;
 }
 
@@ -73,6 +74,7 @@ nav>div {
     transform: rotate(90deg);
     transition: 250ms ease;
     margin: 2px 0 0 2px;
+    font-family: 'Console';
 }
 
 .dropdown>div:hover {
@@ -96,6 +98,7 @@ nav>div {
     margin-top: .5em;
     background-color: var(--clr-light);
     padding: .5em;
+    z-index: 10;
 }
 
 .dropdown__modal li+li {
